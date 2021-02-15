@@ -4,15 +4,23 @@
   "description": "movieql by GraphQL, Apollo yoga",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec babel-node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "movieql"
+    "url": "https://github.com/yjh984/movieql"
   },
   "author": "Jin",
   "license": "ISC",
   "dependencies": {
-    "graphql-yoga": "^1.18.3"
+    "babel-cli": "^6.26.0",
+    "babel-node": "0.0.1-security",
+    "graphql-yoga": "^1.18.3",
+    "nodemon": "^2.0.7",
+    "yarn": "^1.22.10"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
   }
 }
