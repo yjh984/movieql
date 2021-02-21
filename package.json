@@ -13,6 +13,7 @@
   "author": "Jin",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "babel-cli": "^6.26.0",
     "babel-node": "0.0.1-security",
     "graphql-yoga": "^1.18.3",
